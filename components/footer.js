@@ -42,7 +42,7 @@ function Footer() {
                 Присылайте заявки на <span>folkprint.uz</span>
               </h1>
               <h1>
-                Разработан в <span><a href="https://t.me/moddy_1202">Folk Print Group</a></span>
+                Разработан в <span>Folk Print Group</span>
               </h1>
             </div>
           </div>
