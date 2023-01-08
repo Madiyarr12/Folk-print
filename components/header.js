@@ -1,6 +1,5 @@
 import styles from "../styles/Header.module.scss";
 import { FaTelegram, FaFacebook, FaInstagram } from "react-icons/fa";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 function Header() {
   const [open, setOpen] = useState(false);

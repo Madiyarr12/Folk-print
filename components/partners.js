@@ -4,7 +4,7 @@ function Partners() {
 
     const partners = partnersJson.map((partner) => {
         return (
-            <div className={styles.image}>
+            <div key={partner.id} className={styles.image}>
                 <img src={partner.img} alt="partner img" />
             </div>
         )

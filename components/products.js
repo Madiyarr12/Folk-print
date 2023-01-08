@@ -6,7 +6,7 @@ import { useState } from "react";
 function Products() {
   const [open, setOpen] = useState(false);
   const products = productsJson.map((product) => (
-    <div className={styles.card}>
+    <div key={product.id} className={styles.card}>
       <div className={styles.imgDiv}>
         <img src={product.img} className={styles.cardImg} alt="product-img" />
       </div>

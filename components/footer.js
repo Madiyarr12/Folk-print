@@ -1,7 +1,5 @@
 import styles from "../styles/Footer.module.scss";
 import { FaTelegram, FaFacebook, FaInstagram } from "react-icons/fa";
-import Image from "next/image";
-
 function Footer() {
   return (
     <>
